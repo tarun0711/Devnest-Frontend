@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+
+input{
+        margin-left: 3px;
+        width:336px;
+        height: 40px;
+        font-family: 'Orbitron', sans-serif;
+        background-color: white;
+        color: #000000;
+        border-radius: 5px;
+    }
+h1{
+     text-align: center;
+     font-family: serif;
+     font-size: 40px;
+     color: black;
+ }
+.cut{
+    width: 39px;
+}
+ 
+    </style>
+    
+</head>
+<body>
+
+ 
+    <div class="main">
+        <div data-tilt>
+        <div class="calc">
+           <h1>Calculator</h1>
+      <input type="text">
+      <table>
+        
+        <tr>
+            <td><button>(</button></td>
+            <td><button>)</button></td>
+            <td><button>AC</button></td>
+            <td><button class="cut" style="margin-right: 3px;">%</button>      <button class="cut">del</button></td>
+        
+        </tr>
+
+        <tr>
+            <td><button>1</button></td>
+            <td><button>2</button></td>
+            <td><button>3</button></td>
+            <td><button>-</button></td>
+        </tr>
+
+        <tr>
+            <td><button>4</button></td>
+            <td><button>5</button></td>
+            <td><button>6</button></td>
+            <td><button>/</button></td>
+        </tr>
+
+        <tr>
+            <td><button>7</button></td>
+            <td><button>8</button></td>
+            <td><button>9</button></td>
+            <td><button>*</button></td>
+        </tr> 
+
+        <tr>
+
+            <td><button>0</button></td>
+            <td><button>.</button></td>
+            <td><button>=</button></td>
+            <td><button>+</button></td>
+            
+        </tr>
+       
+
+
+      </table>
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+    integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+
+</body>
+</html>

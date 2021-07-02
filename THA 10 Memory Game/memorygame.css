@@ -1,0 +1,119 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    border: 10px solid black;
+    background-color: rgb(236, 160, 17);
+    background-image: url(img/bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+h1
+{
+    width:640px;
+    text-transform: uppercase;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+
+.memory-board
+{
+    margin-right: 60px;
+    display: flex;
+    height:600px;
+    width:600px;
+    float: right;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+
+.card
+{
+    width:25%;
+    height: 33.33%;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+
+.card:active
+{
+    transform: scale(.97);
+    transition: transform .2s;
+}
+
+.card.flip
+{
+    transform: rotateY(180deg);
+}
+
+.front-face, .back-face
+{
+    position: absolute;
+    width: 98%;
+    height: 98%;
+    margin:2px;
+    border-radius: 5px;
+    border: 3px solid rgb(221, 111, 9);
+    backface-visibility: hidden;
+}
+
+.front-face
+{
+   transform: rotateY(180deg); 
+}
+
+.back-face:hover
+{
+    border: 5px solid rgb(132, 238, 10);
+    cursor: pointer;
+}
+
+.front-face:hover
+{   
+    border: 5px solid red;
+    
+}
+
+.score-card
+{
+    margin-left: 200px;
+    float:left;
+    background: transparent;
+    width:400px;
+    height: 550px;
+    margin-top: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.dis , .dis1
+{
+    text-align: center;
+    display: inline-block;
+}
+.display , .display1
+{
+    margin-left:5px;
+}
+.anime
+{
+    margin-left:25px;
+    margin-top: 15px;
+    width:350px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-radius: 5px;
+}

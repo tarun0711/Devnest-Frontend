@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    font-style: 'Roboto' Sens-serif;
+    background-color: #2980B9;
+    background:  linear-gradient(to diagonally diagonally, #ffffff,  #ffff80, #ffff1a);
+    background: -webkit-linear-gradient(to right, #ffffff, #ffff66, #ffff00);
+}
+#app{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #container {
+    width: 50%;
+    background-color: #f7f7f7;
+  }
+  
+  .fa-plus {
+    float: right;
+  }
+  
+  h1 {
+    background-color: #2980b9;
+    padding: 10px;
+    color: white;
+  }
+  
+  #todo-input {
+    font-size: 24px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+  }
+  
+  #todo-input:focus{
+    outline: none;
+    border: 2px solid #2980b9;
+    background-color: #fff;
+  }
+  
+  li {
+    list-style: none;
+    padding: 10px 18px;
+  }
+  
+  span {
+    background-color: #e74c3c;
+    padding: 10px;
+    color: #fff;
+    display: none;
+    margin-right: 10px;
+  }
+  
+  li:hover span{
+    display: inline;
+  }
+  
+  li:hover{
+    padding: 9px 0px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }

@@ -1,0 +1,50 @@
+body
+{
+    background-color: rgb(44, 100, 82);
+}
+h1
+{
+    text-align: center;
+    margin-top: 3vh;
+}
+.container
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 98vw;
+}
+
+.hall
+{
+    background-color: aquamarine;
+    border:1px solid black;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    padding:20px;
+}
+.row
+{
+    display: flex;
+}
+.cell
+{
+    font-size: 45px;
+    margin:15px;
+}
+.values
+{
+    background-color: aquamarine;
+    border:1px solid black;
+    margin-top: -15px;
+    border-radius: 15px;
+    margin-left: 385px;
+    margin-right: 385px;
+    display: flex;
+    justify-content: space-around;
+}
+.head
+{
+    text-align: center;
+}

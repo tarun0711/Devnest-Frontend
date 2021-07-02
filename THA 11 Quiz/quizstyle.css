@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+:root
+{
+    background-color: rgb(27,27,28);
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bona Nova', serif;
+}
+h1
+{
+    text-align: center;
+    background-color: rgba(16, 240, 202, 0.959);
+    border-radius: 5px;
+    width:10rem;
+    height:3rem;
+    margin-left: 5rem;
+}
+
+.container
+{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width:80rem;
+    margin:0 auto;
+    padding:2rem;
+}
+.links
+{
+    
+    margin-top: 3rem;
+}
+.btn
+{
+    font-size: 1.4rem;
+    padding:2rem 0;
+    width:20rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    background: linear-gradient(90deg, rgb(18,92,255) 0%,rgba(0, 255, 136, 0.911) 100%);
+    display: block;
+    border-radius: 3px;
+    text-decoration: none;
+    color:black;
+}
+.btn:hover{
+    cursor:pointer;
+    box-shadow:0 0.4rem 1.4rem 0 rgba(8,114,244,0.6);
+    transition: transform 100ms;
+    transform: scale(1.03);
+}
+.btn[disaled]:hover
+{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform:none;
+}
+#high
+{
+    background: linear-gradient(90deg, rgb(38, 255, 18) 0%,rgb(171, 9, 235) 100%) ;
+}
+#high:hover{
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(38,255,18,0.6);
+}

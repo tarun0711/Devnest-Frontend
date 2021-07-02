@@ -1,0 +1,43 @@
+body{
+      
+    background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
+    background-size: 1200px 800px;
+   }
+   
+   .main{
+       height:68vh;
+       margin-top: 25vh;
+       display:flex;
+       border-color: white;
+       justify-content: center;
+    
+   }
+   
+   .calc{
+   background:transparent;
+   border-radius: 10px;
+   border-color: white;
+   box-shadow: inset 2px 2px 5px rgb(146, 142, 142), inset -5px -5px 10px rgb(184, 177, 177);
+   padding: 7px;
+   }
+   button{
+      background-color:transparent;
+      color: #ffffff;
+       height: 50px;
+       width: 80px;
+       font-family: 'Orbitron', sans-serif;
+       border-radius: 5px;
+      
+     transition-duration: 0.7s;
+   }
+   
+   button:hover{
+   background-color:#204abd;
+   }
+   tr{
+    padding: 3.5px;
+}
+   
+   td{
+       padding: 2.5px;
+   }
