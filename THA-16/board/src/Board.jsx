@@ -1,16 +1,15 @@
 const box = () =>
 {
     return(
-        <div className="box">
-
+        <div className ="box">
         </div>
     )
-}
+};
 
 const row = () =>
 {
     return(
-        <div className="row">
+        <div className ="row">
         <box/>
         <box/>
         <box/>
@@ -21,11 +20,11 @@ const row = () =>
         <box/>
         </div>
     )
-}
+};
 
-const grid = () => {
+const Grid = () => {
     return(
-        <div className="grid">
+        <div className ="grid">
             <row/>
             <row/>
             <row/>
@@ -36,6 +35,6 @@ const grid = () => {
             <row/>
         </div>
     )
-}
+};
 
-export default grid;
+export default Grid;

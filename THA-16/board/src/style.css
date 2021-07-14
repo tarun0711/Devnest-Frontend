@@ -13,7 +13,7 @@
   .board {
     width: 450px;
     height: 450px;
-    border: 25px solid black;
+    border: 20px solid black;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

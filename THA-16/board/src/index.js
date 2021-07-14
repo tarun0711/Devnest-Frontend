@@ -1,15 +1,16 @@
-import React from "react";
-import ReactDOM  from "react";
-import grid from "./Board";
-import "./style.css";
+import React from 'react';
+import ReactDOM  from 'react-dom';
+import Grid from './Board';
+import './style.css';
 
 
 const App = () =>
 {
     return(
         <div className="container">
-            <grid/>
+            <Grid />
         </div>
     )
 };
-ReactDOM.render(<App/>,document.getElementById("root"));
+
+ReactDOM.render(<App/>,document.getElementById('root'));

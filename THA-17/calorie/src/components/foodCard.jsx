@@ -10,6 +10,6 @@ const FoodCard=(props)=>{
             </div>
         </div>
     )
-}
+};
 
 export default FoodCard;
