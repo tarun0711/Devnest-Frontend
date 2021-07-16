@@ -1,6 +1,16 @@
 import React from 'react';
-import  ReactDOM  from 'react-dom';
-import App from './App';
+import ReactDOM from "react-dom";
+import Meme from './meme.jsx';
+import './style.css';
 
 
-ReactDOM.render(<App/>,document.getElementById("root"));
+const Fun = () => {
+    console.log("hiii");
+    return(
+        <div className="container">
+        <Meme/>
+        </div>
+    )
+};
+
+ReactDOM.render(<Fun/>,document.getElementById('root'));

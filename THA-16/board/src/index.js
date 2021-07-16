@@ -3,7 +3,6 @@ import ReactDOM  from 'react-dom';
 import Grid from './Board.jsx';
 import './style.css';
 
-
 const App = () =>
 {
     console.log("Hii");
