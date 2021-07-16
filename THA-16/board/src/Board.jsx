@@ -1,4 +1,4 @@
-const box = () =>
+const Box = () =>
 {
     return(
         <div className ="box">
@@ -6,18 +6,18 @@ const box = () =>
     )
 };
 
-const row = () =>
+const Row = () =>
 {
     return(
         <div className ="row">
-        <box/>
-        <box/>
-        <box/>
-        <box/>
-        <box/>
-        <box/>
-        <box/>
-        <box/>
+        <Box/>
+        <Box/>
+        <Box/>
+        <Box/>
+        <Box/>
+        <Box/>
+        <Box/>
+        <Box/>
         </div>
     )
 };
@@ -25,14 +25,14 @@ const row = () =>
 const Grid = () => {
     return(
         <div className ="grid">
-            <row/>
-            <row/>
-            <row/>
-            <row/>
-            <row/>
-            <row/>
-            <row/>
-            <row/>
+            <Row/>
+            <Row/>
+            <Row/>
+            <Row/>
+            <Row/>
+            <Row/>
+            <Row/>
+            <Row/>
         </div>
     )
 };
