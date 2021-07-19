@@ -10,7 +10,7 @@ import "./style.css";
 const App = () => {
   return(
       <div className="container">
-      {/* <h1>Chess Board</h1> */}
+      <h1>Chess Board</h1>
           <Board/>
       </div>
   )
