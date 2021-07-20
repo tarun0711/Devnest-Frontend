@@ -1,15 +1,10 @@
-import '../style.css'
-import { useState } from 'react'
+import { useState } from "react";
 
-const Button = ()=>{
-
-    const [value,setValue]=useState(0)
+const Button = (props) => {
+    const [val,setVal] = useState(0);
     return(
-        
-        <button className="btn" onClick={()=>setValue(value+1)}>{value}</button>
+        <button className="btn" onClick={ () => {setVal(val+1)}}>{val}</button>
     )
-}
+};
 
 export default Button;
-
-
