@@ -8,6 +8,7 @@ const App = () =>
     console.log("Hii");
     return(
         <div className="container">
+        <h1>Chess Board</h1>
             <Grid />
         </div>
     )

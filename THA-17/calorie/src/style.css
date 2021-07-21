@@ -9,6 +9,29 @@ body
 {
     /*position: absolute;*/
     background-color: rgb(66, 94, 131);
+
+}
+
+.el
+{
+  
+}
+
+.heading{
+  margin-bottom: 5vh;
+  /* margin-top: 500px; */
+  border-radius: 10px;
+  width: 20vw;
+  height: 10vh;
+  background-color: rgb(67, 126, 235);
+  text-align: center;
+  font-weight: bold;
+  color: rgb(9, 18, 68);
+  border: 5px solid rgb(3, 50, 146);
+  font-family: sans-serif;
+  padding: 8px;
+  font-size: 30px;
+  margin: auto;
 }
 .container
 {
@@ -53,6 +76,7 @@ body
     margin-left: 5px;
     margin-right: 2px;
     margin-bottom: 10px;
+    margin-top: 10px;
     background: rgb(9, 74, 194);
     padding-bottom: 30px;
     box-shadow: 5px 5px 10px #0d213d;

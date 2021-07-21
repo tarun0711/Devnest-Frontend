@@ -5,7 +5,6 @@ import './style.css';
 
 
 const Fun = () => {
-    console.log("hiii");
     return(
         <div className="container">
         <Meme/>

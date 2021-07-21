@@ -1,9 +1,9 @@
-const Box = (props)=>{
-    return(
-        <div className="box" style={{backgroundColor:props.color}}>
+// const Box = (props)=>{
+//     return(
+//         <div className="box" style={{backgroundColor:props.color}}>
             
-        </div>
-    )
-}
+//         </div>
+//     )
+// }
 
-export default Box;
+// export default Box;
