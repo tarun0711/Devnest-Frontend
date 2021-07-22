@@ -14,7 +14,7 @@ const Meme = ({meme, setMeme}) =>
     );
     const generateMeme = () => {
         
-        var url = `https://api.imgflip.com/caption_image?template_id=${form.template_id}&username=${form.username}&password=${form.password}`;
+        let url = `https://api.imgflip.com/caption_image?template_id=${form.template_id}&username=${form.username}&password=${form.password}`;
         
         form.boxes.forEach((box, index) => {
             url += `&boxes[${index}][text]=${box.text}`;

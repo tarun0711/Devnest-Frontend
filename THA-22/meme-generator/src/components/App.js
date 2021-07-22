@@ -9,7 +9,7 @@ function App1  ()
         fetch("https://api.imgflip.com/get_memes")
         .then( (res) => res.json())
         .then((data) =>{setTemplates (data.data.memes)})
-     },[])
+     }, [])
 
     return( 
         <div className='temp'>

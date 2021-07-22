@@ -9,16 +9,23 @@ body{
     min-width: 100vw;
     min-height: 100vh;
     background-image: linear-gradient(to right, rgba(6, 54, 126, 0.959), rgba(180, 199, 218, 0.712));
+    display: flex;
+    justify-content: center;
 }
 .container
 {
     flex-direction: column;
+    border: 2px solid black;
+    width: 90vw;
+    border-radius: 5px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 .temp h1{
     margin: auto;
     margin-bottom: 5vh;
     border-radius: 10px;
-    width: 25vw;
+    width: 20vw;
     height: 10vh;
     background-color: rgb(67, 126, 235);
     text-align: center;
@@ -27,6 +34,7 @@ body{
     border: 5px solid rgb(3, 50, 146);
     font-family: sans-serif;
     padding: 12px;
+    margin-top: 5vh;
 }
 .template
 {
@@ -35,11 +43,12 @@ body{
     border: 10px solid transparent;
 }
 .template .img{
-    height: 500px;
-    width:100%;
-    border: 1px solid black;
+    height: 400px;
+    width: 80%;
+    border: 2px solid black;
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
 }
 h2
 {
@@ -50,10 +59,12 @@ h2
     background-color: rgb(114, 139, 187);
     border: 5px solid rgb(15, 41, 94);
     border-radius: 10px;
+    width: 20vw;
+    margin-right: 6vw;
 }
 .templates
 {
-    margin: 20px;
+    margin-left: 75px;
 }
 .meme{
     text-align: center;
@@ -61,8 +72,9 @@ h2
 .meme img{
     height: 500px;
     width: auto;
-    border: 5px solid black;
+    border: 3px solid black;
     margin: auto;
+    border-radius: 5px;
 }
 
 .meme input
