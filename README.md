@@ -75,5 +75,5 @@ https://tarun0711.github.io/Devnest-Frontend/THA-15/
 
 ### THA-22
 #### Meme-Generator
-In another repo named Meme-Generator
+https://tha22.netlify.app/
 ![22](https://user-images.githubusercontent.com/68737903/126581565-727f2beb-440d-4905-9084-29405f4abf51.png)
