@@ -63,6 +63,7 @@ https://tarun0711.github.io/Devnest-Frontend/THA-15/
 
 ### THA-17
 #### Calorie Card
+https://tha-17.netlify.app/
 ![17](https://user-images.githubusercontent.com/68737903/126581553-50f70dfa-0a06-402c-9711-53dfc0be26aa.png)
 
 ### THA-18
@@ -75,5 +76,7 @@ https://tarun0711.github.io/Devnest-Frontend/THA-15/
 
 ### THA-22
 #### Meme-Generator
-In another repo named Meme-Generator
+https://tha22.netlify.app/
 ![22](https://user-images.githubusercontent.com/68737903/126581565-727f2beb-440d-4905-9084-29405f4abf51.png)
+![22-1](https://user-images.githubusercontent.com/68737903/126695010-a64231a5-7405-41aa-b90e-da1c91676e0d.png)
+
