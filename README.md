@@ -63,6 +63,7 @@ https://tarun0711.github.io/Devnest-Frontend/THA-15/
 
 ### THA-17
 #### Calorie Card
+https://tha-17.netlify.app/
 ![17](https://user-images.githubusercontent.com/68737903/126581553-50f70dfa-0a06-402c-9711-53dfc0be26aa.png)
 
 ### THA-18
