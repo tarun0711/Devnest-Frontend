@@ -44,7 +44,7 @@ https://tarun0711.github.io/Devnest-Frontend/THA-13/
 
 ### THA-14
 ##### Event Handlers
-https://tarun0711.github.io/Devnest-Frontend/THA-10/
+https://tarun0711.github.io/Devnest-Frontend/THA-14/
 ![14](https://user-images.githubusercontent.com/68737903/126581540-3a9620e1-454d-44ea-8c0d-8b1231f5f847.png)
 
 
