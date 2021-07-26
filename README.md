@@ -74,6 +74,11 @@ https://tha-17.netlify.app/
 #### Counters
 ![19](https://user-images.githubusercontent.com/68737903/126581561-9dfb350d-c354-46f9-bd27-6710eb5f2d96.png)
 
+#### THA-20
+### Hooks
+![20](https://user-images.githubusercontent.com/68737903/127004773-4a728547-c96f-49da-9b1e-43d009968d0e.png)
+
+
 ### THA-22
 #### Meme-Generator
 https://tha22.netlify.app/
