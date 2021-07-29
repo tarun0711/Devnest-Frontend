@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import "./style.css"
 
 function AddItemForm({ addItem }) {
 	const [title, setTitle] = useState('');
