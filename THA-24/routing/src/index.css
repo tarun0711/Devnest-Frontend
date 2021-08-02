@@ -1,0 +1,42 @@
+*
+{
+  border: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+td
+{
+  /* border: 2px solid black; */
+  padding: 0px  50px;
+  font-size: large;
+  text-align: center;
+ 
+  width: 25vw;
+  height: 8vh;
+}
+tr
+{
+  width: 100vw;
+
+  margin: 0px 200px;
+  color: black;
+}
+table{
+  background-color: rgb(154, 197, 228);
+}
+button
+{
+  background-color: rgb(70, 115, 230);
+  width: 5vw;
+  height: 4vh;
+  border-radius: 3px;
+  font-weight: bold;
+  border: 2px solid rgb(6, 39, 122)
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}

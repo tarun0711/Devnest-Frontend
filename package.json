@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "netlify-cli": "^5.2.4"
+    "netlify-cli": "^5.2.4",
+    "react-router-dom": "^5.2.0"
   }
 }
