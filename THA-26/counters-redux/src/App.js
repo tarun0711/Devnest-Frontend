@@ -1,6 +1,5 @@
-
 import './App.css';
-import { IncNumber, DecNumber } from './actions';
+import { IncNumber, DecNumber, ResetNum } from './actions';
 import { useSelector, useDispatch } from 'react-redux';
 
 function App() {
@@ -12,6 +11,9 @@ function App() {
      <button onClick={ () => {dispatch(DecNumber())}}> -</button>
      <span>{count}</span>
      <button onClick={ () => {dispatch(IncNumber())}}> +</button>
+     <div className="reset">
+       <button onClick={ () => {dispatch(ResetNum())}} >Reset</button>
+     </div>
     </div>
   );
 }

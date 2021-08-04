@@ -9,5 +9,10 @@ const DecNumber = () => {
         type:'DECREASE',
     }
 }
+const ResetNum = () => {
+    return{
+        type:'RESET',
+    }
+}
 
-export { IncNumber, DecNumber};
+export { IncNumber, DecNumber, ResetNum};

@@ -8,6 +8,10 @@ const counterReducer = (state=0, action) =>
     {
         state=state-1;
     }
+    else if(action.type === 'RESET')
+    {
+        state=0;
+    }
     return state;
 }
 
