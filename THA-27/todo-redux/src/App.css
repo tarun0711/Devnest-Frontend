@@ -1,0 +1,22 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.App
+{
+   text-align: center;
+}
+input, button
+{
+    padding: 10px;
+    margin: 10px;
+}
