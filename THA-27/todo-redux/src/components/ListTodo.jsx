@@ -7,7 +7,7 @@ const ListTodo = () =>
     return(
         <div>
             {todos.map((todo,index)=> (
-                <div className="List">
+                <div className="List" key={index}>
                     <h3 style={{display:"inline-block"}}>{todo.title}</h3>
                     <button onClick={() => {
                         dispatch(removeItem(index))
