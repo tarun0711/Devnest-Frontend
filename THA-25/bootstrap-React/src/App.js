@@ -28,7 +28,7 @@ function App() {
         </Row>
 
         <Form.Text className="text-muted">
-                <h2 style={{marginTop:"3vh", color:"white" }}>Goodtoseeyou!</h2>
+                <h2 style={{marginTop:"3vh", color:"black" }}>Good to see you!</h2>
         </Form.Text>
 
         <Button variant="secondary" type="su bmit" style={{marginTop:"1vh"}} onClick={(e) => window.location.href="https://www.facebook.com"}>Log In</Button>
@@ -36,7 +36,7 @@ function App() {
 
 
       <Card className="mb-3" style={{color:"black", marginTop:"20px" }}>
-        <Card.Img style={{padding:"30px", border:"4px solid black"}} src="https://picsum.photos/100/50" />
+        <Card.Img style={{padding:"30px", border:"4px solid black"}} src="https://picsum.photos/50/20" />
         <Card.Body>
           <Card.Title>
             <h1>Hey,</h1>
