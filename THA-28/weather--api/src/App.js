@@ -21,7 +21,7 @@ function App()
       <div className="Container">
         <div className="row">
           <div className="col-12 form">
-            <input type="text" value={place} onChange={ (e)=> {setPlace(e.target.value);}}/>
+            <input type="text" value={place} onChange={ (e)=> {setPlace(e.target.vagitlue);}}/>
             <button className="btn btn-primary" onClick={updatePlaceData}>Submit</button>
           </div>
           <div className="offset-md-4 col-12 col-md-4 weather">
